@@ -32,4 +32,4 @@ bower_components/
 # Ghostdriver
 ghostdriver.log
 
-/.env
+.env
