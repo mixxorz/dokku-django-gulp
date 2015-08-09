@@ -9,6 +9,7 @@ This is the repository used for my blog post [Dockerfile deployment for speedy d
 * [django-environ] to 12-factor the app
 * [pip-tools] for more organized package management
 * [ManifestStaticFilesStorage] is used as the staticfiles storage
+* [Gulp] configured with the `gulpfile.js` from [Mike Street]
 
 [Dockerfile deployment for speedy deploys with Dokku]:#todo
 [Django]:http://djangoproject.com/
@@ -16,3 +17,5 @@ This is the repository used for my blog post [Dockerfile deployment for speedy d
 [django-environ]:https://github.com/joke2k/django-environ
 [pip-tools]:https://github.com/nvie/pip-tools
 [ManifestStaticFilesStorage]:https://docs.djangoproject.com/en/1.8/ref/contrib/staticfiles/#manifeststaticfilesstorage
+[Gulp]:http://gulpjs.com/
+[Mike Street]:http://www.mikestreety.co.uk/blog/a-simple-sass-compilation-gulpfilejs
