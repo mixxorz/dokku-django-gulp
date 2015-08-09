@@ -4,4 +4,5 @@
 #
 #    pip-compile requirements.in
 #
+django-environ==0.3.0
 django==1.8.3
