@@ -1,11 +1,28 @@
-html, body {
-  width: 100%;
+@import url(http://fonts.googleapis.com/css?family=Muli:300);
+
+html, body, div {
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #fafafa;
 }
 
 .container {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(0, -50%);
   width: 100%;
   text-align: center;
+}
+
+.container > h1 {
+  color: #222;
+  font-weight: 300;
 }
