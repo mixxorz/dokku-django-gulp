@@ -12,22 +12,16 @@ media/
 *.db
 *.sqlite3
 
-# sublime stuff
-*.sublime-workspace
-
 # Virtual env
 venv/
 
 # Mac crap
 *.DS_Store
 
-# Ignore settings/local.py
-*/settings/local.py
-
 # Front-end Build
 node_modules/
 bower_components/
-
+_build/
 
 # Ghostdriver
 ghostdriver.log

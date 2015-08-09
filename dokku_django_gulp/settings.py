@@ -112,3 +112,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = (
     'django.contrib.staticfiles.storage.ManifestStaticFilesStorage')
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, '_build'),
+)
